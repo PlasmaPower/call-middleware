@@ -1,0 +1,31 @@
+{
+  "name": "koa-call-middleware",
+  "version": "1.0.0",
+  "description": "Call Koa middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --reporter spec",
+    "test-travis": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --report lcovonly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koajs/call-middleware.git"
+  },
+  "keywords": [
+    "koa",
+    "middleware"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koajs/call-middleware/issues"
+  },
+  "homepage": "https://github.com/koajs/call-middleware#readme",
+  "dependencies": {
+    "is-generator-function": "^1.0.3"
+  },
+  "devDependencies": {
+    "co": "^4.6.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  }
+}

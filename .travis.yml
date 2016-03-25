@@ -1,0 +1,9 @@
+node_js:
+- "4"
+- "5"
+sudo: false
+language: node_js
+script: "npm run test-travis"
+after_script:
+  - npm install codecov
+  - ./node_modules/.bin/codecov
